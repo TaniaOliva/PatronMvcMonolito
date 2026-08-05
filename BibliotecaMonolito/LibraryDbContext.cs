@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+
 using BibliotecaMonolito.Models;
 
-namespace BibliotecaMonolito;
+namespace BibliotecaMonolito
 {
+
 public class LibraryDbContext : DbContext
 {
     public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options)
